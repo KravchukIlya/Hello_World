@@ -1,0 +1,92 @@
+@import "../../style/config.scss";
+
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.38px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+.calendar {
+    margin-top: 12px;
+    height: 74px;
+    overflow: hidden;
+    position: relative;
+    right: 20px;
+}
+.blockData {
+    height: 74px;
+    width: 58px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 6px;
+    text-align: center;
+    span {
+        width: 100%;
+        z-index: 99999;
+    }
+}
+.calendarBlock {
+    height: 74px;
+    width: 58px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    background: #261e40;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    justify-content: flex-end;
+    position: absolute;
+    left: 274px;
+}
+.calendarBlockDate {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.078px;
+    color: #ffffff;
+    opacity: 0.7;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.calendarBlockNumber {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+.icon {
+    display: flex;
+    gap: 8px;
+}
+.blockdata {
+    width: 335%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+.buttonLeft {
+    width: 273px;
+    height: 58px;
+    position: absolute;
+
+    z-index: 999999;
+}
+.buttonRight {
+    width: 273px;
+    height: 58px;
+    z-index: 999999;
+    position: absolute;
+    left: 332px;
+}

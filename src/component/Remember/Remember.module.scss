@@ -1,0 +1,97 @@
+.wrapper {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    height: 100%;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.leftMenu {
+}
+.Cirkle {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 10px;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    border-left: 2px solid #261e40;
+    position: relative;
+    top: 17px;
+}
+
+.block {
+    width: 522px;
+    height: 63px;
+    left: 0px;
+    top: 690px;
+    background: #261e40;
+    border-radius: 12px;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 31px;
+}
+
+.switch input {
+    display: none;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #812ef0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 27px;
+    width: 27px;
+    left: 2px;
+    bottom: 2px;
+    background-color: white;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #812ef0;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #812ef0;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}

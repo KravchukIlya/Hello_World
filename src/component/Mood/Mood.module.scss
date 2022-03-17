@@ -1,0 +1,74 @@
+.wrapper {
+    display: flex;
+    gap: 16px;
+    margin-top: 20px;
+    height: 100%;
+    margin-top: 20px;
+}
+.leftMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.Cirkle {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    top: 10px;
+}
+
+.line {
+    width: 2px;
+    height: 100%;
+    border-left: 2px solid #261e40;
+    position: relative;
+    top: 17px;
+}
+
+.block {
+    width: 522px;
+    height: 100%;
+    background: #261e40;
+    border-radius: 12px;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 22px;
+    letter-spacing: -0.408px;
+    color: #ffffff;
+}
+.blockIcon {
+    display: flex;
+    gap: 16px;
+}
+.icon {
+    height: 56px;
+    width: 56px;
+    border-radius: 111.51078796386719px;
+    background: #2f274b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.iconActiv {
+    height: 56px;
+    width: 56px;
+    border-radius: 111.51078796386719px;
+    background: #b6d831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    path {
+        fill: #ffffff;
+    }
+}

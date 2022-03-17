@@ -1,0 +1,26 @@
+/*
+=============================
+Mixins
+=============================
+*/
+@mixin _desktop {
+    @media (max-width: 1170px) {
+        @content;
+    }
+}
+@mixin _tablet {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+@mixin _mobile {
+    @media (max-width: 450px) {
+        @content;
+    }
+}
+
+@mixin _land {
+    @media (orientation: landscape) {
+        @content;
+    }
+}
