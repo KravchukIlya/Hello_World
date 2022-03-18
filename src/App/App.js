@@ -1,4 +1,5 @@
 import Calendar from "../component/Calendar/Calendar"
+import Footer from "../component/Footer/Footer"
 import Mood from "../component/Mood/Mood"
 import Remember from "../component/Remember/Remember"
 import Retual from "../component/Retual/Retual"
@@ -27,6 +28,8 @@ function App() {
             />
             <Mood />
             <Remember />
+
+            <Footer />
         </div>
     )
 }

@@ -1,0 +1,43 @@
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 106px;
+    height: 60px;
+    background: rgba(16, 14, 25, 0.3);
+    backdrop-filter: blur(18px);
+    padding: 18px 69px;
+    width: 111%;
+    position: relative;
+    left: -31px;
+    top: 15px;
+
+    .blockItemActive {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.078px;
+        color: #ffffff;
+
+        cursor: pointer;
+    }
+    .blockItem {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: -0.078px;
+        color: #ffffff;
+        opacity: 0.3;
+        cursor: pointer;
+    }
+}
